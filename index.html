@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary meta tags -->
+  <title>Graines De Café</title>
+  <meta name="title" content="Graines De Café">
+ 
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Preload images -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+</head>
+
+<body id="top">
+
+  <!-- Preloader -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Graines De Café</p>
+  </div>
+
+
+
+  <!-- Main Content -->
+  <main>
+    
+    <article>
+ 
+
+<!-- Hero Section -->
+<section class="hero text-center" aria-label="accueil" id="accueil">
+
+  <!-- Logo Section -->
+  <div class="logo-container">
+    <img src="./assets/images/logo.svg" alt="Logo" class="logo-image">
+  </div>
+
+  <!-- Hero Slider -->
+  <ul class="hero-slider" data-hero-slider>
+    <li class="slider-item active" data-hero-slider-item>
+      <div class="slider-bg">
+        <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="Ambiance chaleureuse" class="img-cover">
+      </div>
+      <p class="label-2 section-subtitle slider-reveal">Authenticité & Qualité</p>
+      <h1 class="display-1 hero-title slider-reveal">
+        Un lieu où chaque instant <br>
+        devient un plaisir
+      </h1>
+      <p class="body-2 hero-text slider-reveal">
+        Dégustez nos cafés raffinés et nos créations gourmandes dans une atmosphère conviviale.
+      </p>
+    </li>
+    <li class="slider-item" data-hero-slider-item>
+      <div class="slider-bg">
+        <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="Expérience gustative" class="img-cover">
+      </div>
+      <p class="label-2 section-subtitle slider-reveal">Expérience Gourmande</p>
+      <h1 class="display-1 hero-title slider-reveal">
+        Des saveurs uniques <br>
+        pour chaque envie
+      </h1>
+      <p class="body-2 hero-text slider-reveal">
+        Découvrez nos boissons artisanales et nos spécialités, soigneusement préparées pour vous.
+      </p>
+     
+    </li>
+    <li class="slider-item" data-hero-slider-item>
+      <div class="slider-bg">
+        <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="Moment de détente" class="img-cover">
+      </div>
+      <p class="label-2 section-subtitle slider-reveal">Convivialité & Saveurs</p>
+      <h1 class="display-1 hero-title slider-reveal">
+        Un café, un instant, <br>
+        un souvenir
+      </h1>
+      <p class="body-2 hero-text slider-reveal">
+        Partagez un moment unique autour d’une tasse de café ou d’un jus fraîchement pressé.
+      </p>
+    </li>
+  </ul>
+
+  <button class="slider-btn prev" aria-label="faire défiler vers l’arrière" data-prev-btn>
+    <ion-icon name="chevron-back"></ion-icon>
+  </button>
+  <button class="slider-btn next" aria-label="faire défiler vers l’avant" data-next-btn>
+    <ion-icon name="chevron-forward"></ion-icon>
+  </button>
+
+</section>
+
+
+
+
+      <!-- Service Section -->
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+          <div class="section-header" style="margin-bottom: 30px;">
+            <p class="section-subtitle label-2">Découvrez Nos Délices</p>
+            <h2 class="headline-1 section-title">Un Menu Riche et Varié</h2>
+            <p class="section-text" style="margin-bottom: 50px;">
+              Profitez d'une sélection de plats savoureux et de boissons raffinées, conçus pour satisfaire toutes vos
+              envies.
+            </p>
+          </div>
+
+          <ul class="grid-list"
+          style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 30px;">
+        <!-- Food -->
+        <li style="flex: 1; min-width: 220px; max-width: 260px;">
+          <div class="service-card">
+            <a href="#food" class="has-before hover:shine">
+              <figure class="card-banner img-holder"
+                style="--width: 200; --height: 200; position: relative; overflow: hidden; border-radius: 16px; margin-bottom: 20px;">
+                <img src="./assets/images/food.jpg" width="180" height="180" loading="lazy" alt="Food" class="img-cover"
+                  style="border-radius: 16px; filter: brightness(0.7); transition: all 0.3s ease-in-out; object-fit: cover;">
+                <div
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)); border-radius: 16px; transition: all 0.3s ease-in-out;">
+                </div>
+              </figure>
+            </a>
+            <div class="card-content" style="padding: 0 15px;">
+              <h3 class="title-4 card-title" style="margin-bottom: 12px;">
+                <a href="#food">Food</a>
+              </h3>
+              <a href="#food" class="btn-text hover-underline label-2">Savourez Nos Spécialités</a>
+            </div>
+          </div>
+        </li>
+      
+        <!-- Boissons Chaudes -->
+        <li style="flex: 1; min-width: 220px; max-width: 260px;">
+          <div class="service-card">
+            <a href="#boissons-chaudes" class="has-before hover:shine">
+              <figure class="card-banner img-holder"
+                style="--width: 200; --height: 200; position: relative; overflow: hidden; border-radius: 16px; margin-bottom: 20px;">
+                <img src="./assets/images/boissons-chaudes.jpg" width="180" height="180" loading="lazy"
+                  alt="Boissons Chaudes" class="img-cover"
+                  style="border-radius: 16px; filter: brightness(0.7); transition: all 0.3s ease-in-out; object-fit: cover;">
+                <div
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)); border-radius: 16px; transition: all 0.3s ease-in-out;">
+                </div>
+              </figure>
+            </a>
+            <div class="card-content" style="padding: 0 15px;">
+              <h3 class="title-4 card-title" style="margin-bottom: 12px;">
+                <a href="#boissons-chaudes">Boissons Chaudes</a>
+              </h3>
+              <a href="#boissons-chaudes" class="btn-text hover-underline label-2">Savourez Nos Boissons</a>
+            </div>
+          </div>
+        </li>
+      
+        <!-- Boissons Froides -->
+        <li style="flex: 1; min-width: 220px; max-width: 260px;">
+          <div class="service-card">
+            <a href="#boissons-froides" class="has-before hover:shine">
+              <figure class="card-banner img-holder"
+                style="--width: 200; --height: 200; position: relative; overflow: hidden; border-radius: 16px; margin-bottom: 20px;">
+                <img src="./assets/images/boissons-froides.jpg" width="180" height="180" loading="lazy"
+                  alt="Boissons Froides" class="img-cover"
+                  style="border-radius: 16px; filter: brightness(0.7); transition: all 0.3s ease-in-out; object-fit: cover;">
+                <div
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)); border-radius: 16px; transition: all 0.3s ease-in-out;">
+                </div>
+              </figure>
+            </a>
+            <div class="card-content" style="padding: 0 15px;">
+              <h3 class="title-4 card-title" style="margin-bottom: 12px;">
+                <a href="#boissons-froides">Boissons Froides</a>
+              </h3>
+              <a href="#boissons-froides" class="btn-text hover-underline label-2">Dégustez Nos Rafraîchissements</a>
+            </div>
+          </div>
+        </li>
+      
+        <!-- Petit Déjeuner -->
+        <li style="flex: 1; min-width: 220px; max-width: 260px;">
+          <div class="service-card">
+            <a href="#petit-dejeuner" class="has-before hover:shine">
+              <figure class="card-banner img-holder"
+                style="--width: 200; --height: 200; position: relative; overflow: hidden; border-radius: 16px; margin-bottom: 20px;">
+                <img src="./assets/images/petit-dejeuner.jpg" width="180" height="180" loading="lazy"
+                  alt="Petit Déjeuner" class="img-cover"
+                  style="border-radius: 16px; filter: brightness(0.7); transition: all 0.3s ease-in-out; object-fit: cover;">
+                <div
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)); border-radius: 16px; transition: all 0.3s ease-in-out;">
+                </div>
+              </figure>
+            </a>
+            <div class="card-content" style="padding: 0 15px;">
+              <h3 class="title-4 card-title" style="margin-bottom: 12px;">
+                <a href="#petit-dejeuner">Petit Déjeuner</a>
+              </h3>
+              <a href="#petit-dejeuner" class="btn-text hover-underline label-2">Réveillez Vos Papilles</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      
+        </div>
+      </section>
+
+      <!-- Menu Section -->
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+          <p class="section-subtitle text-center label-2">Notre Sélection Exclusive</p>
+          <h2 class="headline-1 section-title text-center">Carte du Menu</h2>
+<!-- Boissons Chaudes -->
+<div class="category-box">
+  <h3 class="headline-2 category-title text-center" id="boissons-chaudes">Boissons Chaudes</h3>
+
+  <!-- Les Classiques -->
+  <div class="subcategory-wrapper">
+    <h4 class="headline-3 subcategory-title">Les Classiques</h4>
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Express</h3>
+              <span class="span title-2">2.0 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Café expresso classique.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Cappucin</h3>
+              <span class="span title-2">2.4 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Café crémeux et doux avec une mousse légère.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Américain</h3>
+              <span class="span title-2">2.5 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Café allongé, moins intense mais savoureux.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Chocolat au Lait</h3>
+              <span class="span title-2">2.5 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Chocolat au lait onctueux et délicieux.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Café Crème</h3>
+              <span class="span title-2">2.7 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Café crémeux et doux.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Capsule Nespresso</h3>
+              <span class="span title-2">4.0 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Capsule de café Nespresso.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Café Turk</h3>
+              <span class="span title-2">4.0 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Café turc traditionnel.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Cappuccino</h3>
+              <span class="span title-2">4.5 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Un cappuccino crémeux et savoureux.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Thés -->
+  <div class="subcategory-wrapper">
+    <h4 class="headline-3 subcategory-title">Thés</h4>
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Thé à la Menthe</h3>
+              <span class="span title-2">4.0 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Thé à la menthe, frais et parfumé.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Thé aux Amandes</h3>
+              <span class="span title-2">5.0 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Thé parfumé aux amandes.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Thé aux Pignons</h3>
+              <span class="span title-2">7.5 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Thé délicatement aromatisé aux pignons.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Thé Infusion</h3>
+              <span class="span title-2">7.5 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Thé infusionné, léger et rafraîchissant.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Chocolat Chaud -->
+  <div class="subcategory-wrapper">
+    <h4 class="headline-3 subcategory-title">Chocolat Chaud</h4>
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Marshmallows</h3>
+              <span class="span title-2">7.0 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Chocolat chaud avec des marshmallows.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Suppléments -->
+  <div class="subcategory-wrapper">
+    <h4 class="headline-3 subcategory-title">Suppléments</h4>
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Noisette</h3>
+              <span class="span title-2">1.0 DT</span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Caramel</h3>
+              <span class="span title-2">1.0 DT</span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3">Nestlé</h3>
+              <span class="span title-2">1.5 DT</span>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+         
+          <!-- Boissons Froides -->
+          <div class="category-box">
+            <h3 class="headline-2 category-title text-center" id="boissons-froides">Boissons Froides</h3>
+
+            <!-- Les Classiques -->
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Les Classiques</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Eau 1/2 L </a></h3>
+                        <span class="span title-2">1.5 DT</span>
+                      </div>
+                      <p class="card-text label-1">Eau minérale naturelle, rafraîchissante.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Eau 1 L</a></h3>
+                        <span class="span title-2">2.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Eau minérale naturelle, idéale pour se désaltérer.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Eau Safia (1 L)</a></h3>
+                        <span class="span title-2">2.5 DT</span>
+                      </div>
+                      <p class="card-text label-1">Eau minérale Safia, pure et désaltérante.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Eau Gazeuse</a></h3>
+                        <span class="span title-2">2.5 DT</span>
+                      </div>
+                      <p class="card-text label-1">Eau pétillante, parfaite pour un moment de fraîcheur.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Soda</a></h3>
+                        <span class="span title-2">3.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Soda rafraîchissant au choix.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Bière Menthe</a></h3>
+                        <span class="span title-2">4.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Bière sans alcool à la menthe, rafraîchissante et légère.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Juices -->
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Juices</h4>
+              <ul class="grid-list">
+                
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Orange</a></h3>
+                        <span class="span title-2">3.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Jus d'orange fraîchement pressé.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Citronnade</a></h3>
+                        <span class="span title-2">3.5 DT</span>
+                      </div>
+                      <p class="card-text label-1">Jus de citron rafraîchissant.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Fraise</a></h3>
+                        <span class="span title-2">5.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Jus de fraise naturel et délicieux.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Banane</a></h3>
+                        <span class="span title-2">5.5 DT</span>
+                      </div>
+                      <p class="card-text label-1">Jus de banane frais et naturel au lait.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Frappuccino -->
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Frappuccino</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Caramel</a></h3>
+                        <span class="span title-2">7.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Frappuccino au caramel crémeux.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Fraise</a></h3>
+                        <span class="span title-2">7.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Frappuccino à la fraise frais et sucré.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Mocha</a></h3>
+                        <span class="span title-2">7.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Frappuccino au chocolat mocha délicieux.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Mojito -->
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Mojito</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Virgine</a></h3>
+                        <span class="span title-2">6.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Mojito sans alcool à la menthe.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Peach</a></h3>
+                        <span class="span title-2">6.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Mojito à la pêche douce et rafraîchissante.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Framboise</a></h3>
+                        <span class="span title-2">7.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Mojito à la framboise frais et fruité.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Vanille</a></h3>
+                        <span class="span title-2">7.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Mojito à la vanille crémeux.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Banane</a></h3>
+                        <span class="span title-2">7.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Mojito à la banane doux et tropical.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Chocolat</a></h3>
+                        <span class="span title-2">7.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Mojito au chocolat gourmand.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Smoothie -->
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Smoothie</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Fraise-Banane</a></h3>
+                        <span class="span title-2">9.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Smoothie à la fraise et banane crémeux.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Fruits Rouges</a></h3>
+                        <span class="span title-2">9.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Smoothie aux fruits rouges savoureux.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Mixed Juices -->
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Mixed Juices</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Emang</a></h3>
+                        <span class="span title-2">11.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Jus mélangé de l'orange, fraise et banane.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Smilie</a></h3>
+                        <span class="span title-2">11.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Jus mixé de banane, noix et fruits.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div>
+                      <div class="title-wrapper">
+                        <h3 class="title-3"><a class="card-title">Wonder Woman</a></h3>
+                        <span class="span title-2">11.0 DT</span>
+                      </div>
+                      <p class="card-text label-1">Jus detox avec citronnade, gingembre, menthe et amande.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Food -->
+          <div class="category-box">
+            <h3 class="headline-2 category-title text-center" id="food">Food</h3>
+
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Nos Burgers</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Angry Bird </a></h3>
+                      <span class="span title-2">15.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">
+                      Poulet Pané, Fromage, Laitue, Tomates, Oignons Caramélisés, Sauce Burgers
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Pokémon</a></h3>
+                      <span class="span title-2">17.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">
+                      Steak Haché, Fromage, Laitue, Tomates, Oignons, Cornichons, Sauce Moutarde, Sauce Burgers
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Nos Sandwichs Orientaux</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Sandwich Chich Taouk</a></h3>
+                      <span class="span title-2">11.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">
+                      Poulet mariné, Oignons et Persil, Tomates, Sauce à l'ail, Sauce Hummus, Harissa, Frites
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Sandwich Kebab Viande</a></h3>
+                      <span class="span title-2">14.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">
+                      Kebab Viande, Oignons et Persil, Tomates, Sauce à l'huile, Sauce Hummus, Harissa, Frites
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Nos Crêpes Salées</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Crêpe Spider Man</a></h3>
+                      <span class="span title-2">7.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">
+                      Jambon, Mozzarella
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Crêpe Block White</a></h3>
+                      <span class="span title-2">7.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">
+                      Thon, Mozzarella
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Nos Crêpes Sucrées</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Crêpe Capitaine America</a></h3>
+                      <span class="span title-2">8.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">
+                      Nutella
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Crêpe Chira</a></h3>
+                      <span class="span title-2">10.5 DT</span>
+                    </div>
+                    <p class="card-text label-1">
+                      Nutella, Banane, Amande Effilées
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Nos Gaufres Sucrées</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Gaufres Captain America</a></h3>
+                      <span class="span title-2">9.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">
+                      Nutella
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Gaufres Chira</a></h3>
+                      <span class="span title-2">10.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">
+                      Nutella, Banane, Amande Effilées
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- Sous-catégorie Nos French Tacos -->
+<div class="subcategory-wrapper">
+  <h4 class="headline-3 subcategory-title">Nos French Tacos</h4>
+  <ul class="grid-list">
+    
+    <!-- EL Chicos -->
+    <li>
+      <div class="menu-card hover:card">
+        <div>
+          <div class="title-wrapper">
+            <h3 class="title-3"><a href="#" class="card-title">EL Chicos</a></h3>
+            <span class="span title-2">12.0 DT</span>
+          </div>
+          <p class="card-text label-1">
+            Poulet pané ou grillé, champignons frais, oignons caramélisés, légumes grillés , sauce fromage , frite
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <!-- EL Ninôs -->
+    <li>
+      <div class="menu-card hover:card">
+        <div>
+          <div class="title-wrapper">
+            <h3 class="title-3"><a href="#" class="card-title">EL Ninôs</a></h3>
+            <span class="span title-2">12.0 DT</span>
+          </div>
+          <p class="card-text label-1">
+            Viande hachée, champignons frais, oignons caramélisés, légumes grillés , sauce fromage , frite
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- Sous-catégorie Nos Salades -->
+<div class="subcategory-wrapper">
+  <h4 class="headline-3 subcategory-title">Nos Salades</h4>
+  <ul class="grid-list">
+
+    <!-- Astérix -->
+    <li>
+      <div class="menu-card hover:card">
+        <div>
+          <div class="title-wrapper">
+            <h3 class="title-3"><a href="#" class="card-title">Astérix</a></h3>
+            <span class="span title-2">14.0 DT</span>
+          </div>
+          <p class="card-text label-1">
+            Poulet (Grillé ou Pané), salade verte, tomates, cerises, Parmesan, croûtons, sauce césar, sauce balsamique.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <!-- Hawaji -->
+    <li>
+      <div class="menu-card hover:card">
+        <div>
+          <div class="title-wrapper">
+            <h3 class="title-3"><a href="#" class="card-title">Mowgli</a></h3>
+            <span class="span title-2">18.0 DT</span>
+          </div>
+          <p class="card-text label-1">
+            Crevettes, ananas, tomates, avocat, salade verte, sauce miel, moutarde.
+          </p>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+</div>
+<!-- Sous-catégorie Nos Pâtes -->
+<div class="subcategory-wrapper">
+  <h4 class="headline-3 subcategory-title">Nos Pâtes</h4>
+  <ul class="grid-list">
+
+    <!-- Tasmania Piquante -->
+    <li>
+      <div class="menu-card hover:card">
+        <div>
+          <div class="title-wrapper">
+            <h3 class="title-3"><a href="#" class="card-title">Tasmania Piquante</a></h3>
+            <span class="span title-2">14.0 DT</span>
+          </div>
+          <p class="card-text label-1">
+            Penne, thon, parmesan, sauce tomates fraîche, l'ail, olives noires.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <!-- Deadpool -->
+    <li>
+      <div class="menu-card hover:card">
+        <div>
+          <div class="title-wrapper">
+            <h3 class="title-3"><a href="#" class="card-title">Deadpool</a></h3>
+            <span class="span title-2">19.0 DT</span>
+          </div>
+          <p class="card-text label-1">
+            Penne, poulet, sauce blanche aux champignons et noir, roquefort, gruyère.
+          </p>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+</div>
+<!-- Sous-catégorie Nos Sandwichs -->
+<div class="subcategory-wrapper">
+  <h4 class="headline-3 subcategory-title">Nos Sandwichs</h4>
+  <ul class="grid-list">
+
+    <!-- Aladdin Piquant -->
+    <li>
+      <div class="menu-card hover:card">
+        <div>
+          <div class="title-wrapper">
+            <h3 class="title-3"><a href="#" class="card-title">Aladdin Piquant</a></h3>
+            <span class="span title-2">9.0 DT</span>
+          </div>
+          <p class="card-text label-1">
+            Thon, fromage, laitue, tomate, oignons, olives, mayonnaise, frites.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <!-- Shredder -->
+    <li>
+      <div class="menu-card hover:card">
+        <div>
+          <div class="title-wrapper">
+            <h3 class="title-3"><a href="#" class="card-title">Shredder</a></h3>
+            <span class="span title-2">9.0 DT</span>
+          </div>
+          <p class="card-text label-1">
+            Poulet (pannée ou grillé), mozzarella, laitue, tomate, oignons, sauce fromage, frites.
+          </p>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+</div>
+
+            <div class="subcategory-wrapper">
+              <h4 class="headline-3 subcategory-title">Nos Desserts</h4>
+              <ul class="grid-list">
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Amandine</a></h3>
+                      <span class="span title-2">4.5 DT</span>
+                    </div>
+                    <p class="card-text label-1">Gâteau moelleux à l'amande, doux et savoureux.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Pannacottas Classiques</a></h3>
+                      <span class="span title-2">4.5 DT</span>
+                    </div>
+                    <p class="card-text label-1">Dessert italien crémeux et léger, parfait pour finir un repas.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Cookies Géant</a></h3>
+                      <span class="span title-2">7.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">Cookie moelleux et généreux, idéal pour les amateurs de chocolat.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Brownies</a></h3>
+                      <span class="span title-2">7.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">Brownie au chocolat fondant, riche et gourmand.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Fondant Chocolat</a></h3>
+                      <span class="span title-2">7.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">Fondant au chocolat, moelleux et intense en saveur.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Fondant Snickers</a></h3>
+                      <span class="span title-2">7.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">Fondant inspiré du Snickers, avec caramel, cacahuètes et chocolat.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Fondant Pistache</a></h3>
+                      <span class="span title-2">7.5 DT</span>
+                    </div>
+                    <p class="card-text label-1">Fondant à la pistache, onctueux et parfumé.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Tiramisu</a></h3>
+                      <span class="span title-2">10.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">Dessert italien classique, à base de café et mascarpone.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="menu-card hover:card">
+                    <div class="title-wrapper">
+                      <h3 class="title-3"><a class="card-title">Cheese Cake</a></h3>
+                      <span class="span title-2">10.0 DT</span>
+                    </div>
+                    <p class="card-text label-1">Cheesecake crémeux sur une base de biscuits, un classique indémodable.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+ <!-- Petit Déjeuner -->
+ <div class="category-box">
+  <h3 class="headline-2 category-title text-center" id="petit-dejeuner">Petit Déjeuner</h3>
+
+  <!-- Coyote -->
+  <div class="subcategory-wrapper">
+    <h4 class="headline-3 subcategory-title">Coyote</h4>
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Café Classique ou Thé</a></h3>
+              <span class="span title-2">5.0 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Jus Classique, Viennoiserie, Eau minérale (0.5L).
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Mr Bean -->
+  <div class="subcategory-wrapper">
+    <h4 class="headline-3 subcategory-title">Mr Bean</h4>
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Café Classique ou Thé</a></h3>
+              <span class="span title-2">7.0 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Jus Classique, Viennoiserie, Mini gâteau, Eau minérale (0.5L).
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Captain Tunisia -->
+  <div class="subcategory-wrapper">
+    <h4 class="headline-3 subcategory-title">Captain Tunisia</h4>
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Café Classique ou Thé</a></h3>
+              <span class="span title-2">19.0 DT</span>
+            </div>
+            <p class="card-text label-1">
+              Jus Classique, Chakchouka avec œuf, Mlawi, Tabouna, Miel, Chamia, Ricotta, Dattes bsissa liquide, Yoyo, Eau minérale (0.5L).
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Daltons -->
+  <div class="subcategory-wrapper">
+    <h4 class="headline-3 subcategory-title">Daltons</h4>
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Petit Déjeuner Complet</a></h3>
+              <span class="span title-2">25.0 DT</span>
+            </div>
+            <p class="card-text label-1">
+              2 Café Classiques ou Thé, 2 Jus Classiques, 2 Viennoiseries, Pain de mie, Beurre, Miel, Confiture, Assortiment charcuterie et fromages, Pain Cakes Nutella, 2 Omelettes mozzarella, 2 Salades de fruits, Eau 1L.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+      </section>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+      <div class="footer-top grid-list">
+        <div class="footer-brand has-before has-after">
+          <a class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="Graines De Café home">
+          </a>
+          <address class="body-4">
+            Avenue Khayereddin, Radès, Tunisie
+          </address>
+          
+          <p class="body-4">
+            HEURES D'OUVERTURE : 06:30 - 00:00
+          </p>
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+         
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=61570955366752" class="label-2 footer-link hover-underline" target="_blank">
+              <i class="fab fa-facebook"></i> Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/graines.de.cafe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="label-2 footer-link hover-underline" target="_blank">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="year"></span>All Rights Reserved </a>
+        </p>
+        
+        <script>
+          document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+        
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back To Top -->
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- Custom JS link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- Ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
